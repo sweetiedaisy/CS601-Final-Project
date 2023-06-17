@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Pet Form</h1>
+    <h2>Let me know what pets you have!</h2>
+    <form id="info_form" method="POST">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+        <span id="first_name_error_msg" class="feedback"></span>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+        <span id="last_name_error_msg" class="feedback"></span>
+        
+        <p>Your Gender:</p>
+        <label for="gender1">Women</label>
+        <input type="radio" id="gender1" name="gender" value="Female" required>
+        <label for="gender2">Men</label>
+        <input type="radio" id="gender2" name="gender" value="Male" required>
+        <span id="gender_error_msg" class="feedback"></span>
+
+        <p>Do you own a pet?:</p>
+        <label for="pet1"> Dog</label>
+        <input type="checkbox" id="pet1" name="pet1" value="Dog" class="pet_checkbox" >
+        <label for="pet2"> Cat</label>
+        <input type="checkbox" id="pet2" name="pet2" value="Cat" class="pet_checkbox" >
+        <label for="pet3"> Other</label>
+        <input type="checkbox" id="pet3" name="pet3" value="Other" class="pet_checkbox" >
+        <label for="pet4"> No</label>
+        <input type="checkbox" id="pet4" name="pet4" value="No Pet" class="pet_checkbox" >
+        <span id="pet_error_msg" class="feedback"></span>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2>List of the Pets that I have!</h2>
+    <button id="fetchButton">Click me to display the data</button>
+    <div id="tableContainer"></div>
+
+    <div class="return-home">
+        <a href="index.html">Return to Home Page</a>
+    </div>
+
+    <script src="script/script.js"></script>
+    <script src="script/pet.js"></script>
+</body>
+</html>

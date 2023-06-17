@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nana🐺GSD</title>
+    <link rel="stylesheet" href="./css/gsd.css">
+</head>
+
+<body>
+    <header>
+        <div class="gsd">
+            <h1 class="gsd_tit">About Nana</h1>
+            <h1 class="gsd_tits">My lovely GSD 🐺👧🏻 daily</h1>
+            <img class="bgc" src="./image/top2.png" alt="">
+            <nav class='ribbon'>
+                <a href='./index.html'><span>Home</span></a>
+                <a href='./mygsd.html'><span>🐺GSD</span></a>
+                <a href='./daily.html'><span>Daily</span></a>
+                <a href='./about.html'><span>Gallery</span></a>
+                <a href='./form.html'><span>Comtact</span></a>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <h2>Hover to see the Nana past!</h2>
+        <div id="app">
+            <div class="image-container" v-for="image in images">
+                <img :src="image.current" @mouseover="image.current = image.old" @mouseout="image.current = image.currentImage">
+            </div>
+        </div>
+    </section>
+    <article class="introduce">
+        <section class="introduce_item">
+            <figure>
+                <video class="introduce_item_video" src="./video/310949.MP4" controls></video>
+                <figcaption class="introduce_item_title animate">
+                    Hi! This is me, Nana! I'm a German Shepherd and currently three and a half years old. 
+                    My mom always calls me her 'little princess' because I'm such a good girl. I am very independent and obedient. 
+                    I love sleeping and eating good food at home, but if someone comes near the house, I'm on alert because I want to protect my family.
+                    <p>Here is a video of me, secretly recorded by my mom, snoring when I was six months old.</p>
+                </figcaption>
+            </figure>
+        </section>        
+        <section class="introduce_item">
+            <figure>
+                <video class="introduce_item_video" src="./video/nanaswim.MP4" controls></video>
+                <figcaption class="introduce_item_title animate">
+                    This video is from last summer vacation when I played with my friend Datou in the river. I was so happy! I also snuck in a few sips of water. The water was a bit cool, but very good.
+                </figcaption>
+            </figure>
+        </section>
+        <section class="introduce_item">
+            <figure>
+                <video class="introduce_item_video" src="./video/nanacatch.MP4" controls></video>
+                <figcaption class="introduce_item_title animate">
+                    This video was taken when we returned to where we live. My mom was outside the house playing catch with me. I'm very talented; I caught the ball in an instant.
+                </figcaption>
+            </figure>
+        </section>
+        <section class="introduce_item">
+            <figure>
+                <video class="introduce_item_video" src="./video/river2.MP4" controls></video>
+                <figcaption class="introduce_item_title animate">
+                    This video was taken during last year's summer vacation when my mom took me to climb White Mountain. 
+                    The scenery from up there is very good, though it's quite windy and a bit cold. 
+                    In the video, I just came down from the mountain and arrived at a small river in the foothills, where many kids were playing. 
+                    But I was very well-behaved, I just looked around at the scenery without disturbing anyone.
+                </figcaption>
+            </figure>
+        </section>        
+    </article>
+    <aside>
+        <a href="https://www.akc.org/dog-breeds/german-shepherd-dog/">Click here: Learn more about German Shepherd Dogs</a>
+    </aside>
+    <footer class="footer">
+        <p>© 2023 Daisy and Nana's Blog. All rights reserved.</p>
+    </footer>
+    <button id="backToTopButton" class="back-to-top-button">Back to Top</button>
+    <script src="./script/about.js"></script>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="./script/app.js"></script>
+</body>
+
+</html>

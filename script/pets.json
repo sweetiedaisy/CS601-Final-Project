@@ -1,0 +1,23 @@
+{
+    "pets": [
+        {
+            "name": "Nana",
+            "type": "Dog",
+            "breed": "Germen Sheperd",
+            "age": 3
+          },
+          {
+            "name": "Nafi",
+            "type": "Dog",
+            "breed": "Poodle",
+            "age": 7
+          },
+          {
+            "name": "Pipi",
+            "type": "Dog",
+            "breed": "Poodle",
+            "age": 9
+          }
+    ]
+  }
+  

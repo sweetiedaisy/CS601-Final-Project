@@ -160,8 +160,8 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    width: 40%; /* Adjust according to your needs */
-    margin-right: 20px; /* Adds some space between the images and text */
+    width: 40%; 
+    margin-right: 20px; 
 }
 
 .me_tit {
@@ -172,13 +172,13 @@ body {
 }
 
 .me_tit p {
-    margin-bottom: 20px;  /* adjust as needed */
+    margin-bottom: 20px;  
 }
 
 .me_img {
     width: 100%;
     height: auto;
-    margin-bottom: 20px; /* Adds some space between the images */
+    margin-bottom: 20px; 
 }
 
 .animate {
@@ -217,22 +217,22 @@ body {
     right: 20px;
     z-index: 999;
     display: none; 
-    padding: 10px 20px; /* increased the horizontal padding for wider button */
+    padding: 10px 20px; 
     border: none;
-    border-radius: 30px; /* increased for more rounded button */
+    border-radius: 30px; 
     background-color: #ef9ad0be;
     color: #fff;
     cursor: pointer;
     font-size: 16px;
-    opacity: 100%; /* added for a bit of transparency */
-    transition: all 0.5s; /* added transition for smooth display and color change */
+    opacity: 100%; 
+    transition: all 0.5s; 
 }
 
 .back-to-top-button:hover {
     background: linear-gradient(to bottom,#ef9ad0be 5%, #ededed 100%);
     background-color: #ef9ad0be;
-    opacity: 60%; /* on hover, button becomes fully opaque */
+    opacity: 60%; 
 }
 .back-to-top-button.show {
-    display: block; /* Button is displayed when scroll position exceeds 300px */
+    display: block; 
 }

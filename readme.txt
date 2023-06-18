@@ -2,6 +2,8 @@
 Daisy and Nana🐺 Website README
 =========================
 
+Link: https://yantingz-blog.glitch.me/
+
 This is the README file for the Dais and Nana🐺 website project. It contains information about the project structure, files, and usage.
 
 ## Table of Contents

@@ -21,6 +21,7 @@ The project files are organized as follows:
 - mygsd.html: A page dedicated to Nana.
 - daily.html: A page displaying daily updates and photos of Daisy's daily life.
 - about.html: A gallery page showcasing various images of Daisy.
+- resume.html: A resume page about myself.
 - form.html: A contact form page for users to reach out.
 - css/gsd.css: The CSS file containing the styling for the website.
 - image/: A directory containing the images used in the website.
